@@ -5,4 +5,4 @@ services:
   angular: # name of the first service
     build: ./ # specify the directory of the Dockerfile
     ports:
-      - "80:3333" # specify port forwarding
+      - "80:4200" # specify port forwarding
