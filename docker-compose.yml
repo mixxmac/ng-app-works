@@ -6,3 +6,7 @@ services:
     build: ./ # specify the directory of the Dockerfile
     ports:
       - "80:4200" # specify port forwarding
+  nginx:
+    image: nginx
+    ports:
+      - "8080:80" # specify port forwarding
